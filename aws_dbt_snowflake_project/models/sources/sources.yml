@@ -1,0 +1,12 @@
+sources:
+  - name: staging
+    description: "Raw data from Snowflake"
+    database: AIRBNB
+    schema: staging
+    tables:
+      - name: listings
+        description: "Raw listing data"
+      - name: bookings
+        description: "Raw booking data"
+      - name: hosts
+        description: "Raw host data"
