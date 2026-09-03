@@ -69,17 +69,14 @@ The project can also support a dimensional modeling approach using fact and dime
                     dim_host
                        │
                        │
-dim_location ───── fact_listing ───── dim_listing
-                       │
-                       │
-                    dim_date
-
+dim_booking ───── fact_table ───── dim_listing
+                  
 This structure separates measurable business events from descriptive dimensions and is suitable for analytical workloads.
 
 # ✔️Initial SETUP
----pip install uv
----uv init
----uv sync
----.venv/Scripts/activate
----uv add dbt-core
----uv add dbt-snowflake 
+--->pip install uv
+--->uv init
+--->uv sync
+--->.venv/Scripts/activate
+--->uv add dbt-core
+--->uv add dbt-snowflake 
