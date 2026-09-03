@@ -35,7 +35,6 @@ The project follows a Medallion Architecture consisting of three layers:
                                 BI / Analytics
 
 # 🛠️ Technology Stack
-Technology	Purpose
 **AWS S3** -	Stores raw Airbnb data
 **Snowflake**	- Cloud data warehouse
 **dbt** -	Data transformation, testing, documentation, and modeling
